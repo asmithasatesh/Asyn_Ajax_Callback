@@ -48,7 +48,7 @@ const postURL = "http://localhost:3000/employees";
 const empData = {"first_name":"Rakesh","last_name":"Kumar","salary":550000};
 //Method for call back
 function addUser(data){
-    console.log(" User Posted: "+data);
+    console.log(" User Added is: "+data);
 }
 //Performing POST operation
 makeAjaxCall("POST",postURL,addUser,true,empData);
